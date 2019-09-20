@@ -3,7 +3,7 @@ Feature: Show the usage of Karate header semantic field
 
 
   Scenario: Create a cat correctly and the delete it
-    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
+    Given url 'http://localhost:4567/v1/cats'
     And request { name: 'Paco' , age: 8 }
     And header Test-Execution-Info = '20190426'
     When method PUT

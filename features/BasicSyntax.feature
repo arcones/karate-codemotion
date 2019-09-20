@@ -1,4 +1,5 @@
 @BasicSyntax
+
 Feature: Try out basic Karate syntax
 
   Background: Area to define variables used in the scenarios of this file
@@ -102,4 +103,6 @@ Feature: Try out basic Karate syntax
       | clander.json |
       | fistro.json  |
       | jander.json  |
+
+
 

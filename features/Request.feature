@@ -2,7 +2,7 @@
 Feature: Show the usage of Karate request core keyword
 
   Scenario: Create and update a cat
-    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
+    Given url 'http://localhost:4567/v1/cats'
     And request { name: 'Samu', age: 2 }
     When method PUT
     Then status 201
@@ -20,7 +20,7 @@ Feature: Show the usage of Karate request core keyword
   Scenario: Create cat
     * def cat = { name: 'Samu', age: 2 }
 
-    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
+    Given url 'http://localhost:4567/v1/cats'
     And request cat
     When method PUT
     Then status 201

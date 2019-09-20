@@ -4,7 +4,7 @@ Feature: Show the usage of Karate methods & status core keywords
   Scenario: Create, retrieve, update and delete a cat
     * def catName = 'Anacleto'
 
-    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
+    Given url 'http://localhost:4567/v1/cats'
     And request { name: '#(catName)', age: 4 }
     When method PUT
     Then status 201
@@ -24,7 +24,7 @@ Feature: Show the usage of Karate methods & status core keywords
     * def environment = 'dev'
     * def getOrHead = (environment == 'dev' ? 'GET':'HEAD')
 
-    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
+    Given url 'http://localhost:4567/v1/cats'
     And path 'Felix'
     When method getOrHead
     Then assert responseStatus == 404 || responseStatus == 200

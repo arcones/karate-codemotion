@@ -6,10 +6,23 @@ You can find the slides [here](https://bit.ly/karate-slides-codemotion).//TODOOO
 
 ## Requirement
  - [Docker](https://docs.docker.com/install/) :whale2:
+ - [Gradle](https://docs.docker.com/install/) :whale2:
 
 ### Run the test suite :gear:
-Once inside the cloned repo, you can use your *docker engine* to build the container & run the tests with:
+Once inside the cloned repo, you can use your *docker engine* to:
+
 ```
+## Run the HTTP API
+
+docker build . -t karate-dsl
+
+docker run -v "$PWD/target:/target" karate-dsl:latest
+```
+
+
+```
+## Run the test suite
+
 docker build . -t karate-dsl
 
 docker run -v "$PWD/target:/target" karate-dsl:latest

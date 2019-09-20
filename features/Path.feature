@@ -2,7 +2,7 @@
 Feature: Show the usage of Karate core keywords
 
   Background: Store common variables used accross the scenarios
-    * url 'http://karate-apidaysmad19.mocklab.io/cats'
+    * url 'http://localhost:4567/v1/cats'
 
   Scenario: Retrieve favourite food of cat's parent
     Given path 'Felix/parent/food'
@@ -33,7 +33,7 @@ Feature: Show the usage of Karate core keywords
     Then status 204
 
   Scenario: Create, retrieve and delete a cat
-    Given url 'http://karate-apidaysmad19.mocklab.io/cats'
+    Given url 'http://localhost:4567/v1/cats'
     And request { name: 'Satan', age: 2 }
     When method PUT
     Then status 201
