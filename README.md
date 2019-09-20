@@ -16,7 +16,7 @@ docker run -v "$PWD/target:/target" karate-dsl:latest
 ```
 
 ### Reports :bar_chart:
-The execution should generate a Cucumber HTML report that could be open with your favourite browser at `target/cucumber-html-reports/overview-features.html`
+The execution should generate a Cucumber HTML report that could be opened with your favourite browser at `target/cucumber-html-reports/overview-features.html`
 
 ## Want some more? :up:
 I did a more extensive talk about Karate in the following [meetup](http://bit.ly/karate-meetup-swcraft).
