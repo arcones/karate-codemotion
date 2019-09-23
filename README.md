@@ -2,9 +2,9 @@
 
 Repo with assets that will be used in a talk about [Karate testing framework](https://intuit.github.io/karate/) that will be held in [Codemotion 2019 Madrid Conference](https://events.codemotion.com/conferences/madrid/2019/)
 
-You can find the slides [here](https://bit.ly/karate-slides-codemotion).//TODOOOOOOO!!! Set the link with the PDF version!
+You can find the slides [here](https://docs.google.com/presentation/d/147Mg1PqqmEVXNWDV8kLu8QdID0z1sLbxdsPGc7FCLQQ/edit?usp=sharing).
 
-## Requirement
+## Requirements
  - [Docker](https://docs.docker.com/install/) :whale2:
  - [Gradle](https://docs.docker.com/install/) :elephant:
 
