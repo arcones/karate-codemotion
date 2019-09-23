@@ -6,7 +6,7 @@ You can find the slides [here](https://docs.google.com/presentation/d/147Mg1Pqqm
 
 ## Requirements
  - [Docker](https://docs.docker.com/install/) :whale2:
- - [Gradle](https://docs.docker.com/install/) :elephant:
+ - [Gradle](https://gradle.org/install/) :elephant:
 
 ### Run the test suite :gear:
 Once inside the cloned repo, you can use *gradle* and the *docker engine* to:
