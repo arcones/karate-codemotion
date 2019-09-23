@@ -6,26 +6,21 @@ You can find the slides [here](https://bit.ly/karate-slides-codemotion).//TODOOO
 
 ## Requirement
  - [Docker](https://docs.docker.com/install/) :whale2:
- - [Gradle](https://docs.docker.com/install/) :whale2:
+ - [Gradle](https://docs.docker.com/install/) :elephant:
 
 ### Run the test suite :gear:
-Once inside the cloned repo, you can use your *docker engine* to:
+Once inside the cloned repo, you can use *gradle* and the *docker engine* to:
 
 ```
 ## Run the HTTP API
-
-docker build . -t karate-dsl
-
-docker run -v "$PWD/target:/target" karate-dsl:latest
+cd cats-as-a-service && ./gradlew clean shadowJar run ; cd -
 ```
 
+This will block your terminal, so open a new one to run the tests against the HTTP service with:
 
 ```
 ## Run the test suite
-
-docker build . -t karate-dsl
-
-docker run -v "$PWD/target:/target" karate-dsl:latest
+docker build . -t karate-dsl && docker run -v "$PWD/target:/target" --network=host  karate-dsl:latest
 ```
 
 ### Reports :bar_chart:
