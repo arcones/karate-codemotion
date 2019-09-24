@@ -5,8 +5,8 @@ Repo with assets that will be used in a talk about [Karate testing framework](ht
 You can find the slides [here](https://docs.google.com/presentation/d/147Mg1PqqmEVXNWDV8kLu8QdID0z1sLbxdsPGc7FCLQQ/edit?usp=sharing).
 
 ## Requirements
- - [Docker](https://docs.docker.com/install/) :whale2:
- - [Gradle](https://gradle.org/install/) :elephant:
+ - [JVM Environment](https://java.com/en/download/) To run the HTTP API provided :coffee:
+-  [Docker](https://docs.docker.com/install/) To run the tests :whale2:
 
 ### Run the test suite :gear:
 Once inside the cloned repo, you can use *gradle* and the *docker engine* to:
