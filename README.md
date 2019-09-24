@@ -31,4 +31,3 @@ I did a more extensive talk about Karate in the following [meetup](http://bit.ly
 
 ## Any feedback? :innocent:
 Send me anything but viruses to marta.arcones@gmail.com :woman_technologist:
-
