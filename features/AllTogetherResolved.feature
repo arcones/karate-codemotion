@@ -1,4 +1,4 @@
-@AllTogether
+@Ignore
 Feature: We will write a feature that asking to http://localhost:4567/v1/cats/master endpoint, do some assertions over the response.
 
 Background: I will store here the endpoint
