@@ -22,6 +22,8 @@ This will block your terminal, so open a new one to run the tests against the HT
 ## Run the test suite
 docker build . -t karate-dsl && docker run -v "$PWD/target:/target" --network=host  karate-dsl:latest
 ```
+### Take into account...
+Although this project contains an HTTP API coded in Java, you can test with Karate any HTTP API, no matter the language it is written.
 
 ### Reports :bar_chart:
 The execution should generate a Cucumber HTML report that could be opened with your favourite browser at `target/cucumber-html-reports/overview-features.html`
